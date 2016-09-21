@@ -6,8 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script>
+
+$(function(){
+	alert(<%System.getProperty("os.arch").toString();%>);
+});
+</script>
 <body>
 <h1>대원 관리 시스템</h1>
 <a href="input.agent">대원 정보 입력</a>
+<a href="list.agent">대원 정보 조회</a>
 </body>
 </html>

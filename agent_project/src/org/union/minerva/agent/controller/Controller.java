@@ -2,6 +2,7 @@ package org.union.minerva.agent.controller;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,6 +20,7 @@ public class Controller extends HttpServlet {
 			resp.setContentType("text/html;charset=UTF-8");
 			resp.setCharacterEncoding("UTF-8");
 			req.setCharacterEncoding("UTF-8");
+			System.out.println("charset = UTF-8");
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -28,7 +30,20 @@ public class Controller extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		setEncoding(req, resp);
+		String uri = req.getRequestURI();
+		String path = req.getContextPath();
+		String patt = uri.substring(path.length()+1);
+		System.out.println(uri);
+		System.out.println(path);
+		System.out.println(patt);
 		String viewName = "WEB-INF/agent/input.jsp";
+		if(patt.equals("input.agent")){
+			viewName = "WEB-INF/agent/input.jsp";
+		}else if(patt.equals("list.agent")){
+			viewName = "WEB-INF/agent/list.jsp";
+			List<AgentDTO> lst = AgentDAO.select();
+			req.setAttribute("LIST", lst);
+		}
 		RequestDispatcher view = req.getRequestDispatcher(viewName);
 		view.forward(req, resp);
 	}

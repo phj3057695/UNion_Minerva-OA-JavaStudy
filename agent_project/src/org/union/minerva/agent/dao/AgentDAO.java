@@ -1,6 +1,8 @@
 package org.union.minerva.agent.dao;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.naming.*;
 import javax.sql.DataSource;
@@ -22,6 +24,41 @@ public class AgentDAO {
 		}
 		return con;
 	}
+	public static List<AgentDTO> select(){
+		Connection con = getConnection();
+		ArrayList<AgentDTO> lst = new ArrayList<>();
+		String sql = "select * from agent";
+		Statement st = null;
+		ResultSet res = null;
+		try{
+			st=con.createStatement();
+			res=st.executeQuery(sql);
+			while(res.next()){
+				String id = res.getString(1);
+				String name=res.getString(2);
+				int age = res.getInt(3);
+				String addr = res.getString(4);
+				String division = res.getString(5);
+				String class_no = res.getString(6);
+				AgentDTO dto=new AgentDTO(id,name,age,addr,division,class_no);
+				lst.add(dto);
+				System.out.println(dto.toString());
+			}
+		}catch(SQLException e){
+			e.printStackTrace();
+		}finally{
+			try{
+				if(st!=null)st.close();
+				if(res!=null)res.close();
+				if(con!=null)con.close();
+			}catch(SQLException e){
+				e.printStackTrace();
+			}
+		}
+		
+		return lst;
+		
+	}
 	public static void insert(AgentDTO dto){
 		Connection con = getConnection();
 		String sql = "insert into agent values(?,?,?,?,?,?)";
@@ -36,16 +73,16 @@ public class AgentDAO {
 			pst.setString(6, dto.getClass_no());
 			int res = pst.executeUpdate();
 			if(res<=0){
-				System.out.println("입력이 실패했습니다. 상태 코드 = "+res);
+				System.out.println("입력에 실패했습니다.");
 			}else{
-				System.out.println("입력이 성공적으로 완료되었습니다. 상태 코드 = "+res);
+				System.out.println("입력에 성공했습니다.");
 			}
 		}catch(SQLException e){
 			e.printStackTrace();
 		}finally{
 			try{
-				if(pst!=null)pst.close();
-				if(con!=null)con.close();
+				if(pst!=null) pst.close();
+				if(con!=null) con.close();
 			}catch(SQLException e){
 				e.printStackTrace();
 			}
