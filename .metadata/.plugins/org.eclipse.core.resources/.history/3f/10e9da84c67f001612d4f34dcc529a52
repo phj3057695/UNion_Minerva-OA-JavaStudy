@@ -1,0 +1,5 @@
+package org.union.minerva.agent.dto;
+
+public class AgentDTO {
+
+}
