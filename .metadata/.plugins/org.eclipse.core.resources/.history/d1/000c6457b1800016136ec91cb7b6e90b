@@ -14,7 +14,7 @@
 $(function(){
 	
 	var hi = "<%=greet%>";
-	confirm(hi);
+	alert(hi);
 	console.log(hi);	
 });
 </script>

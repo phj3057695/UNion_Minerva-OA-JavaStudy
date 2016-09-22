@@ -1941,3 +1941,141 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2016-09-22 08:58:43.300
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2016-09-22 17:12:03.533 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-22 17:12:30.091
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\UNion-Minerva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2016-09-22 17:14:28.528
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.528
+!MESSAGE Software being installed: artificial_root 1.0.0.v1474532065455
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.528
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.528
+!MESSAGE SSE CSS Source Editor 1.0.901.v201501212057 (org.eclipse.wst.css.ui 1.0.901.v201501212057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.528
+!MESSAGE SSE CSS Source Editor 1.0.1000.v201603050225 (org.eclipse.wst.css.ui 1.0.1000.v201603050225)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.528
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.528
+!MESSAGE JavaScript Development Tools Core 1.3.401.v201511181529 (org.eclipse.wst.jsdt.core 1.3.401.v201511181529)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.528
+!MESSAGE JavaScript Development Tools Core 2.0.0.v201605251700 (org.eclipse.wst.jsdt.core 2.0.0.v201605251700)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: artificial_root 1.0.0.v1474532065455
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipse.jst.web_ui.feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: artificial_root 1.0.0.v1474532065455
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipse.wst.web_ui.feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: artificial_root 1.0.0.v1474532065455
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipselabs.jsdt.jquery_feature.feature.group 1.6.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: SSE JSP Source Editor 1.1.1100.v201605092203 (org.eclipse.jst.jsp.ui 1.1.1100.v201605092203)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: bundle org.eclipse.wst.css.ui [1.0.1000,1.1.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: Eclipse Java Web Developer Tools 3.8.0.v201605120129 (org.eclipse.jst.web_ui.feature.feature.group 3.8.0.v201605120129)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipse.jst.jsp.ui [1.1.1100.v201605092203]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: JSDT Web Support Core 1.0.801.v201602241914 (org.eclipse.wst.jsdt.web.core 1.0.801.v201602241914)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: bundle org.eclipse.wst.jsdt.core [2.0.0,3.0.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: Eclipse Web Developer Tools 3.8.0.v201601291607 (org.eclipse.wst.web_ui.feature.feature.group 3.8.0.v201601291607)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipse.wst.css.ui [1.0.901.v201501212057]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: Eclipse Web Developer Tools 3.8.0.v201606030549 (org.eclipse.wst.web_ui.feature.feature.group 3.8.0.v201606030549)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: org.eclipse.wst.jsdt.web.core [1.0.801.v201602241914]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: JSDT jQuery API 1.6.0 (org.eclipselabs.jsdt.jquery.api 1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE To: bundle org.eclipse.wst.jsdt.core [1.1.0,2.0.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-09-22 17:14:28.529
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.529
+!MESSAGE From: JSDT jQuery Integration 1.6.0 (org.eclipselabs.jsdt.jquery_feature.feature.group 1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-22 17:14:28.530
+!MESSAGE To: org.eclipselabs.jsdt.jquery.api [1.6.0]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2016-09-22 17:14:28.548
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\UNion-Minerva\eclipse\jee-neon\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jst.jee 4 0 2016-09-22 18:07:22.274
+!MESSAGE [Working copy] __2F_agent_5F_project_2F_WebContent_2F_WEB_2D_INF_2F_agent_2F_update_2E_jsp.java [in <default> [in src [in agent_project]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [[Working copy] __2F_agent_5F_project_2F_WebContent_2F_WEB_2D_INF_2F_agent_2F_update_2E_jsp.java [in <default> [in src [in agent_project]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:107)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceType.getAnnotations(SourceType.java:200)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.createJavaeeObject(WebAnnotationReader.java:152)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:145)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostReconcile(AbstractAnnotationModelProvider.java:466)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:446)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1504)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1463)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:765)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5521)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validate(JSPBatchValidator.java:528)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-09-22 18:07:22.276
+!MESSAGE [Working copy] __2F_agent_5F_project_2F_WebContent_2F_WEB_2D_INF_2F_agent_2F_update_2E_jsp.java [in <default> [in src [in agent_project]]] does not exist
