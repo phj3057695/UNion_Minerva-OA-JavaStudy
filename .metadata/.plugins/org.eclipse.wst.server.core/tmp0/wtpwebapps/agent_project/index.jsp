@@ -9,8 +9,13 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <script>
 
+<%String greet = "greetings";%>
+
 $(function(){
-	alert(<%System.getProperty("os.arch").toString();%>);
+	
+	var hi = "<%=greet%>";
+	alert(hi);
+	console.log(hi);	
 });
 </script>
 <body>

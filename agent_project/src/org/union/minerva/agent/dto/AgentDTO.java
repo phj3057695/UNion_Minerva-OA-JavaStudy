@@ -57,8 +57,8 @@ public class AgentDTO {
 	}
 	@Override
 	public String toString() {
-		return "AgentDTO [id=" + id + ", name=" + name + ", age=" + age + ", addr=" + addr + ", division=" + division
-				+ ", class_no=" + class_no + "]";
+		return "<td>" + id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + addr + "</td><td>" + division
+				+ "</td><td>" + class_no + "</td>";
 	}
 	
 }

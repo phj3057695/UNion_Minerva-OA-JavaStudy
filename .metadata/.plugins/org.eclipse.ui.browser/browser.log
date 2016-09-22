@@ -1,0 +1,26 @@
+
+Sep 22, 2016 05:38:41.95 NEW SESSION
+Sep 22, 2016 05:38:41.95 [10720:11180:0922/053841:ERROR:cache_util_win.cc(20)] Unable to move the cache: 0
+Sep 22, 2016 05:38:41.96 [10720:11180:0922/053841:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\UNion-Minerva\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\UNion-Minerva\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Sep 22, 2016 05:38:41.97 [10720:11180:0922/053841:ERROR:cache_creator.cc(134)] Unable to create cache
+Sep 22, 2016 05:38:42.00 [10720:11180:0922/053841:ERROR:shader_disk_cache.cc(589)] Shader Cache Creation failed: -2
+Sep 22, 2016 05:38:43.47 [10468:4476:0922/053843:ERROR:backend_impl.cc(1033)] Critical error found -8
+Sep 22, 2016 05:38:43.48 [10468:4476:0922/053843:ERROR:entry_impl.cc(1035)] No file for b3020978
+Sep 22, 2016 05:41:47.60 
+Sep 22, 2016 05:41:47.61 KLIB_SelfTest return : KLR_OK
+
+Sep 22, 2016 12:39:20.94 NEW SESSION
+Sep 22, 2016 12:39:20.94 [12212:12352:0922/123920:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Sep 22, 2016 12:39:22.27 [12212:12504:0922/123922:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 12:39:22.35 [12212:12352:0922/123922:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 12:39:38.71 [12212:12352:0922/123938:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 12:39:42.06 [12212:12352:0922/123942:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 14:26:23.26 [12212:12352:0922/142623:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 16:50:10.75 
+Sep 22, 2016 16:50:10.76 KLIB_SelfTest return : KLR_OK
+Sep 22, 2016 16:54:11.24 
+Sep 22, 2016 16:54:11.25 KLIB_SelfTest return : KLR_OK
+Sep 22, 2016 17:04:47.71 
+Sep 22, 2016 17:04:47.71 KLIB_SelfTest return : KLR_OK
+Sep 22, 2016 17:06:05.29 
+Sep 22, 2016 17:06:05.30 KLIB_SelfTest return : KLR_OK

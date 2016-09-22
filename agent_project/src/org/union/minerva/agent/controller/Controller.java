@@ -43,6 +43,16 @@ public class Controller extends HttpServlet {
 			viewName = "WEB-INF/agent/list.jsp";
 			List<AgentDTO> lst = AgentDAO.select();
 			req.setAttribute("LIST", lst);
+		}else if(patt.equals("delete.agent")){
+			String id = req.getParameter("id");
+			AgentDAO.delete(id);
+			resp.sendRedirect("list.agent");
+			return ;
+		}else if(patt.equals("update.agent")){
+			String id = req.getParameter("id");
+			AgentDTO agent = AgentDAO.selectById(id);
+			req.setAttribute("AGENT", agent);
+			viewName = "WEB-INF/agent/update.jsp";
 		}
 		RequestDispatcher view = req.getRequestDispatcher(viewName);
 		view.forward(req, resp);
@@ -50,6 +60,9 @@ public class Controller extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		setEncoding(req,resp);
+		String uri = req.getRequestURI();
+		String path = req.getContextPath();
+		String patt = uri.substring(path.length()+1);
 		String id = req.getParameter("id");
 		String name = req.getParameter("name");
 		String age = req.getParameter("age");
@@ -57,6 +70,11 @@ public class Controller extends HttpServlet {
 		String division = req.getParameter("division");
 		String class_no = req.getParameter("class_no");
 		AgentDTO agentDTO = new AgentDTO(id,name,Integer.parseInt(age),addr,division,class_no);
-		AgentDAO.insert(agentDTO);
+		if(patt.equals("input.agent")){
+			AgentDAO.insert(agentDTO);
+		}else if(patt.equals("update.agent")){
+			AgentDAO.update(agentDTO);
+		}
+		resp.sendRedirect("list.agent");
 	}
 }
