@@ -28,3 +28,68 @@ Sep 22, 2016 17:06:05.30 KLIB_SelfTest return : KLR_OK
 Sep 22, 2016 18:07:44.47 NEW SESSION
 Sep 22, 2016 18:07:44.47 
 Sep 22, 2016 18:07:44.47 KLIB_SelfTest return : KLR_OK
+Sep 22, 2016 20:44:05.14 [13232:13272:0922/204405:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:44:56.58 [13232:13272:0922/204456:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:45:25.66 [13232:13272:0922/204525:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:46:11.46 [13232:13272:0922/204611:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:48:05.19 [13232:13272:0922/204805:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:51:56.11 [13232:13272:0922/205156:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:56:39.30 [13232:13272:0922/205639:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -105
+Sep 22, 2016 20:56:45.78 [13232:13272:0922/205645:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:57:00.40 [13232:6236:0922/205700:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 20:57:01.65 [13232:13272:0922/205701:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Sep 22, 2016 20:57:05.65 [13232:13272:0922/205705:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:57:12.42 [13232:13272:0922/205712:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:57:15.79 [13232:13272:0922/205715:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:57:26.94 [13232:6236:0922/205726:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 20:57:51.18 [13232:13272:0922/205751:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:58:26.49 [13232:6236:0922/205826:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 20:58:28.37 [13232:13272:0922/205828:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 20:58:45.63 [13232:13272:0922/205845:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:59:04.39 [13232:13272:0922/205904:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 20:59:06.60 [13232:13272:0922/205906:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 21:00:25.22 [13232:6236:0922/210025:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 21:00:30.88 [13232:13272:0922/210030:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:00:32.97 [13232:13272:0922/210032:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 21:00:39.13 [13232:9980:0922/210039:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 21:01:24.20 [13232:9980:0922/210124:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 21:03:12.30 [13232:6236:0922/210312:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 22, 2016 21:03:16.28 [13232:9980:0922/210316:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 21:03:25.72 [13232:13272:0922/210325:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:06:46.15 [13232:13272:0922/210646:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Sep 22, 2016 21:06:48.28 [13232:13272:0922/210648:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 21:06:54.67 [13232:13272:0922/210654:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:13:20.35 [13232:13272:0922/211320:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 21:13:37.69 [13232:13272:0922/211337:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:13:48.69 [13232:13272:0922/211348:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:13:50.84 [13232:13272:0922/211350:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 21:14:56.63 [13232:13272:0922/211456:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:14:59.71 [13232:13272:0922/211459:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:19:04.20 
+Sep 22, 2016 21:19:04.20 KLIB_SelfTest return : KLR_OK
+Sep 22, 2016 21:27:15.21 [14484:13104:0922/212715:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Sep 22, 2016 21:27:19.75 [14484:13104:0922/212719:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:27:44.02 [14484:13104:0922/212744:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -118
+Sep 22, 2016 21:27:50.98 [14484:9352:0922/212750:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 21:48:41.43 [14484:13104:0922/214841:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Sep 22, 2016 21:48:44.73 [14484:13104:0922/214844:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -105
+Sep 22, 2016 21:48:50.88 [14484:13104:0922/214850:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -105
+Sep 22, 2016 21:48:54.58 [14484:13104:0922/214854:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -105
+Sep 22, 2016 21:49:02.10 [14484:13104:0922/214902:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:52:00.30 [14484:13104:0922/215200:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:52:03.53 [14484:13104:0922/215203:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 21:52:06.63 [14484:13104:0922/215206:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 22, 2016 22:55:56.98 [14484:9352:0922/225556:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 22:56:01.76 [14484:13104:0922/225601:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+Sep 22, 2016 22:56:05.12 [14484:9352:0922/225605:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 22, 2016 22:57:27.80 
+Sep 22, 2016 22:57:27.81 KLIB_SelfTest return : KLR_OK
+Sep 23, 2016 10:45:09.33 [17340:11956:0923/104509:ERROR:get_updates_processor.cc(250)] PostClientToServerMessage() failed during GetUpdates
+Sep 23, 2016 11:01:34.41 
+Sep 23, 2016 11:01:34.42 KLIB_SelfTest return : KLR_OK
+Sep 23, 2016 12:15:35.86 [10340:316:0923/121535:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Sep 23, 2016 12:15:36.78 [10340:14348:0923/121536:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -21
+Sep 23, 2016 12:57:02.74 
+Sep 23, 2016 12:57:02.75 KLIB_SelfTest return : KLR_OK
+Sep 23, 2016 13:52:04.03 
+Sep 23, 2016 13:52:04.04 KLIB_SelfTest return : KLR_OK

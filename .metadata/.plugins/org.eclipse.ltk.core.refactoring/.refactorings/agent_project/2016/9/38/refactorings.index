@@ -1,3 +1,5 @@
 1474439261217	Rename package 'org.union.minerva.agent'
 1474440242847	Rename resource 'input.jsp'
 1474441385036	Move 'index.jsp' to 'WebContent'
+1474613115703	Move 'detail.html' to 'agent'
+1474613121019	Delete element

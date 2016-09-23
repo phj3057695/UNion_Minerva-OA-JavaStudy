@@ -53,6 +53,8 @@ public class Controller extends HttpServlet {
 			AgentDTO agent = AgentDAO.selectById(id);
 			req.setAttribute("AGENT", agent);
 			viewName = "WEB-INF/agent/update.jsp";
+		}else if(patt.equals("detail.agent")){
+			viewName="WEB-INF/agent/detail.html";
 		}
 		RequestDispatcher view = req.getRequestDispatcher(viewName);
 		view.forward(req, resp);

@@ -57,8 +57,12 @@ public class AgentDTO {
 	}
 	@Override
 	public String toString() {
-		return "<td>" + id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + addr + "</td><td>" + division
+		return "<td>"+ id + "</td><td>" + name + "</td><td>" + age + "</td><td>" + addr + "</td><td>" + division
 				+ "</td><td>" + class_no + "</td>";
+	}
+	public String toStringList(){
+		String quota = "\"";
+		return "{id:"+quota+id+quota+", name:"+quota+name+quota+", age:"+age+", addr:"+quota+addr+quota+", division:"+quota+division+quota+", class_no:"+quota+class_no+quota+"}";
 	}
 	
 }
