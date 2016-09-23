@@ -36,6 +36,7 @@ app.config(function($routeProvider){
 app.controller('detailCtrl',['$scope','$routeParams',function($scope,$routeParams){
 	$scope.obj = idlst[$routeParams.id];
 }]);
+})
 
 </script>
 <body>
